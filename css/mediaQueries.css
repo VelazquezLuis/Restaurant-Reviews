@@ -1,0 +1,72 @@
+
+@media screen and ( min-width: 602px) {
+
+  #restaurantheading {
+    font-size: 2rem;
+
+  }
+
+
+}
+
+
+@media screen and (max-width: 620px)  {
+
+  .inside {
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+  }
+  
+
+  .inside header{
+    order: 0;
+    width: 100vw;
+  }
+
+  header {
+    display: flex;
+    flex-direction: column;
+  }
+
+  header nav {
+    order:0;
+    
+  }
+
+  header #breadcrumb {
+    order:1;
+    width: 100vw;
+    text-align: center;
+  }
+
+  .inside #map-container {
+    order: 2;
+    position: relative;
+    height: 22em;
+    width: 100vw;
+    top: 140px;
+  }
+
+/* .inside #restaurant-name{
+  
+
+} */
+
+.inside #restaurant-container {
+  width: 100vw;
+  margin-top: 1em;
+  padding-left: 15px;
+}
+
+.inside #reviews-container {
+  width: 90vw;
+  padding-left: 2em;
+}
+
+.inside #footer {
+  width: 100vw;
+}
+
+
+}
