@@ -1,4 +1,4 @@
-
+/* media queries adds Responsiveness to the page */
 @media screen and ( min-width: 602px) {
 
   #restaurantheading {
@@ -9,7 +9,9 @@
 
 }
 
-
+/* this section make the map apear on top,
+ when vw reaches 620px for small devices. 
+ that way you have a better experience  */
 @media screen and (max-width: 620px)  {
 
   .inside {
