@@ -27,3 +27,7 @@ In a terminal, check the version of Python you have: `python -V`. If you have Py
 ## Leaflet.js and Mapbox:
 
 This repository uses [leafletjs](https://leafletjs.com/) with [Mapbox](https://www.mapbox.com/). You need to replace `<your MAPBOX API KEY HERE>` with a token from [Mapbox](https://www.mapbox.com/). Mapbox is free to use, and does not require any payment information.
+
+## Contributing
+
+Most of the code and start up files was provided by Udacity. most work was done in the mediaQueries.css, sw.js main.js with the help of walk throughs webinars and udacity resources(from Matthew Cranford, Brad Traversy) and , this mobile desktop wite was able to function properly.
